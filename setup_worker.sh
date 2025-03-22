@@ -32,6 +32,7 @@ sudo sysctl -p
 
 # Join the Kubernetes cluster
 # Note: Replace <JOIN_COMMAND> with the actual join command provided by the master node.
+# `kubeadm token create --print-join-command`
 echo "Joining the Kubernetes cluster..."
 sudo kubeadm join 170.64.167.79:6443 --token <your-token> --discovery-token-ca-cert-hash sha256:<your-hash>
 
