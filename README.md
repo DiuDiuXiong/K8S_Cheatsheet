@@ -1,2 +1,2 @@
 # K8S_Cheatsheet
-Some cheatsheet for lazy K8S playground
+- To setup K8S master node with one script see: [setup.sh](./setup.sh)
